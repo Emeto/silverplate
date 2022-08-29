@@ -1,0 +1,13 @@
+{
+  "rules": [
+    {
+      "type": "DstHostIs",
+      "value": "www.reddit.com",
+      "conditions": {
+        "hourRange": [9, 18]
+      },
+      "rejectMessage": "Not permitted during working hours",
+      "httpStatusCode": 403
+    }
+  ]
+}

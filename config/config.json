@@ -1,0 +1,7 @@
+{
+  "verboseMode": true,
+  "keepDestinationHeaders": true,
+  "keepHeader": true,
+  "port": 3128,
+  "handleNonProxyRequests": true
+}
